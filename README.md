@@ -8,7 +8,7 @@ This drop-in JS Library for websites effectively guides a user to add the websit
 </br>
 Instructions and UI in this library have been "battle-tested" and has yielded an *~85% home screen install rate* on IOS and Android across all ages in past implementations.
 
-Here is a [demo (please open on your phone)](https://philfung.github.io) of library use within a hypothetical app "Aardvark" <img width="40" alt="aardvark-icon" src="https://github.com/philfung/add-to-homescreen/assets/1054593/e933af84-9225-4079-8fd7-5af525878693">
+Here is a [demo (please open on your phone)](https://philfung.github.io) of library use within a hypothetical app "villrein" <img width="40" alt="aardvark-icon" src="[https://[https://lakter.s3.eu-north-1.amazonaws.com/Villreintindesenter/Villrein+-+tindesenter+-17.09.24/Reindeer.png]">
 </br>
 </br>
 <img src="https://github.com/user-attachments/assets/3e751e86-f438-4a33-b9bb-fc81495fa67c" width="300"/>
@@ -58,7 +58,7 @@ This should be a quick drop-in library into your website.
    ```html
    <head>
    ...
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/philfung/add-to-homescreen@2.0/dist/add-to-homescreen.min.css">
+   <link rel="stylesheet" href="https://lakter.s3.eu-north-1.amazonaws.com/Villreintindesenter/Villrein+-+tindesenter+-17.09.24/story.html">
    <script src="https://cdn.jsdelivr.net/gh/philfung/add-to-homescreen@2.0/dist/add-to-homescreen.min.js"></script>
    ...
    </head>
@@ -71,7 +71,7 @@ This should be a quick drop-in library into your website.
    <script>
    document.addEventListener('DOMContentLoaded', function () { 
     window.AddToHomeScreenInstance = new window.AddToHomeScreen({
-     appName: 'Aardvark',                                   // Name of the app.
+     appName: 'villrein',                                   // Name of the app.
                                                             // Required.
      appIconUrl: 'apple-touch-icon.png',                    // App icon link (square, at least 40 x 40 pixels).  
                                                             // Required.
